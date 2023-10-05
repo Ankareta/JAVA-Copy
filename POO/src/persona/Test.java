@@ -19,5 +19,16 @@ public class Test {
 		System.out.println("*****************");
 		Simi.calcularSalario();
 		Simi.imprimirInfoDentista();
+		
+		
+		
+		
+		
+		
+		//Instancia de Oaciente con todos los datos
+		Paciente Chencho = new Paciente("CHNCH1234", "RH Positivo", true, true, "05/Oct/2023", "Dr. Simi Lares", false);
+		System.out.println("*****************");
+		System.out.println(Chencho);
+		
 	}
 }
